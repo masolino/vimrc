@@ -21,7 +21,7 @@ set nobackup
 set noswapfile
 
 set relativenumber   " Show the line number relative to the line with the cursor in front of each line
-set nonumber         " need this because for relativenumber to work because in .vim/vimrc I have set number
+set nonumber         " need this for relativenumber to work because in .vim/vimrc I have set number
 
 set undofile
 set undodir=~/.vimundo
