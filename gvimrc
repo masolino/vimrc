@@ -20,14 +20,16 @@ set formatoptions+=1 " When wrapping paragraphs, don't end lines with 1-letter w
 set nobackup
 set noswapfile
 
-set relativenumber " Show the line number relative to the line with the cursor in front of each line
+set relativenumber   " Show the line number relative to the line with the cursor in front of each line
+set nonumber         " need this because for relativenumber to work because in .vim/vimrc I have set number
+
 set undofile
 set undodir=~/.vimundo
 
 set modelines=0
 set nomodeline
 
-set gdefault " applies substitutions globally on lines
+set gdefault       " applies substitutions globally on lines
 au FocusLost * :wa " save on losing focus
 
 " Don't have to press that annoying Shift key that slows the commands down
