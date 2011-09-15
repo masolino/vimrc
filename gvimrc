@@ -45,7 +45,8 @@ inoremap jj <ESC>
 " map <right> <nop>
 
 set background=dark
-set guifont=Inconsolata:h16
+" set guifont=Inconsolata:h16
+set guifont=Menlo:h14
 let g:solarized_termcolors=256
 let g:solarized_bold = 1
 let g:solarized_underline = 1
