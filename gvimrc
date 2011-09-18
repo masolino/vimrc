@@ -94,7 +94,7 @@ let g:ragtag_global_maps = 1
 nnoremap <silent> <esc> :noh<cr><esc>
 
 " map Ctrl Shift B to open the buffer list.
-map <C-A> :buffers<c-M>
+" map <C-A> :buffers<c-M>
 
 " Strip all trailing whitespace from a file, using \W
 nnoremap <leader>W :%s/\s\+$//<CR>:let @/=''<CR>
