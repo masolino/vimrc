@@ -68,7 +68,7 @@ map <D-&> <plug>NERDCommenterToggle<CR>
 
 " automatically leave insert mode after 'updatetime' milliseconds of inaction
 " http://vim.wikia.com/wiki/To_switch_back_to_normal_mode_automatically_after_inaction
-au CursorHoldI * stopinsert
+" au CursorHoldI * stopinsert
 
 set transparency=3
 
